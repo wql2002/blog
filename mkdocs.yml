@@ -1,4 +1,10 @@
-site_name: My Docs
-site_url: https://mydomain.org/mysite
+site_name: wql2002's blog
+site_description: wql2002's personal blog, including learning materials, course notes, etc.
+site_url: http://www.example.com
+
 theme:
   name: material
+
+plugins:
+  - search
+  - blog
