@@ -1,6 +1,6 @@
 # Learning OS from scratch
 
-this article is based on [闪客：#linux源码趣读]([#Linux 源码趣读 (qq.com)](https://mp.weixin.qq.com/mp/appmsgalbum?__biz=Mzk0MjE3NDE0Ng==&action=getalbum&album_id=2123743679373688834&scene=173&from_msgid=2247499226&from_itemidx=1&count=3&nolastread=1#wechat_redirect))
+this article is based on [#Linux 源码趣读 (qq.com)](https://mp.weixin.qq.com/mp/appmsgalbum?__biz=Mzk0MjE3NDE0Ng==&action=getalbum&album_id=2123743679373688834&scene=173&from_msgid=2247499226&from_itemidx=1&count=3&nolastread=1#wechat_redirect)
 
 ![overview](D:\typora_img\image-20231106193521026.png)
 

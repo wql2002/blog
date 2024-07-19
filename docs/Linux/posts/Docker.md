@@ -13,9 +13,9 @@
 
 #### Build a image
 
-> from [docker docs]([Containerize an application | Docker Docs](https://docs.docker.com/get-started/02_our_app/))
+> from [Containerize an application | Docker Docs](https://docs.docker.com/get-started/02_our_app/)
 >
-> Github repo: [getting-started-app]([docker/getting-started-app: A simple application for the getting started guide in Docker's documentation (github.com)](https://github.com/docker/getting-started-app/tree/main))
+> Github repo: [docker/getting-started-app: A simple application for the getting started guide in Docker's documentation (github.com)](https://github.com/docker/getting-started-app/tree/main)
 
 Create a `Dockerfile` at `/path/to/getting-started-app`
 
@@ -79,7 +79,7 @@ But in another container using same image, you can't see the `data.txt`
 
 #### Volumes
 
-> man page: [volumes]([Volumes | Docker Docs](https://docs.docker.com/storage/volumes/))
+> man page: [Volumes | Docker Docs](https://docs.docker.com/storage/volumes/)
 >
 > [Volumes](https://docs.docker.com/storage/volumes/) provide the ability to connect specific filesystem paths of the container back to the host machine. If you mount a directory in the container, changes in that directory are also seen on the host machine. If you mount that same directory across container restarts, you'd see the same files.
 
