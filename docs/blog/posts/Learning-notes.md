@@ -87,3 +87,6 @@ https://juejin.cn/post/6988116489739960334
 
 ## 7.18.2024
 
+### zsh autocompletion
+
+https://gist.github.com/n1snt/454b879b8f0b7995740ae04c5fb5b7df
