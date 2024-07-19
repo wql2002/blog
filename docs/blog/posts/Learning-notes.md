@@ -1,7 +1,7 @@
 ---
 date:
   created: 2024-07-16
-  updated: 2024-07-18
+  updated: 2024-07-19
 readtime: 5
 ---
 
@@ -90,3 +90,45 @@ https://juejin.cn/post/6988116489739960334
 ### zsh autocompletion
 
 https://gist.github.com/n1snt/454b879b8f0b7995740ae04c5fb5b7df
+
+
+
+## 7.19.2024
+
+### rust
+
+`mut` in function parameter: 
+
+- https://users.rust-lang.org/t/function-parameter-v-mut-t-or-mut-v-t/62410
+- https://stackoverflow.com/questions/28587698/whats-the-difference-between-placing-mut-before-a-variable-name-and-after-the
+
+> as [constant pointer vs pointer to constant](https://stackoverflow.com/questions/21476869/constant-pointer-vs-pointer-to-constant)
+
+```rust
+// Rust          C/C++
+    a: &T     == const T* const a; // can't mutate either
+mut a: &T     == const T* a;       // can't mutate what is pointed to
+    a: &mut T == T* const a;       // can't mutate pointer
+mut a: &mut T == T* a;             // can mutate both
+```
+
+
+
+`type` and `pattern`: https://users.rust-lang.org/t/function-parameter-v-mut-t-or-mut-v-t/62410
+
+
+
+### Cloud Infra
+
+A bottom-up approach by Nick Cao@TUNA: https://www.youtube.com/watch?v=-lrkJOXAqoY
+
+#### restic
+
+back up: https://restic.readthedocs.io/en/stable/010_introduction.html
+
+#### knot
+
+authoritative DNS: https://www.knot-dns.cz/
+
+
+
