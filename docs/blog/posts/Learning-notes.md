@@ -132,3 +132,32 @@ authoritative DNS: https://www.knot-dns.cz/
 
 
 
+## 7.21.2024
+
+### check alias
+
+https://askubuntu.com/questions/102093/how-to-see-the-command-attached-to-a-bash-alias
+
+
+
+### fs in linux
+
+#### mount
+
+mount a fs/partition (typically one partition has one fs, so used interchangeably): https://askubuntu.com/questions/20680/what-does-it-mean-to-mount-something
+
+#### device
+
+In Unix world, *everything is a file*. So device is stored at `/dev`.
+
+https://askubuntu.com/questions/20680/what-does-it-mean-to-mount-something
+
+- `lsblk`: check disk(/partition) info
+- `df -h`: check fs-partition info
+
+
+
+### project build
+
+`./configure`, `make`, and `make install`: https://thoughtbot.com/blog/the-magic-behind-configure-make-make-install
+
