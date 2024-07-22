@@ -161,3 +161,19 @@ https://askubuntu.com/questions/20680/what-does-it-mean-to-mount-something
 
 `./configure`, `make`, and `make install`: https://thoughtbot.com/blog/the-magic-behind-configure-make-make-install
 
+
+
+## 7.22.2024
+
+### python shebang
+
+`#!/usr/bin/env python` vs `#!\usr/local/bin/python`
+
+https://mail.python.org/pipermail/tutor/2007-June/054816.html
+
+https://stackoverflow.com/questions/1352922/why-is-usr-bin-env-python-supposedly-more-correct-than-just-usr-bin-pyt
+
+TL; DR: The former will search `$PATH` for the actual place python installed, while the latter will use the path specified and fail if not find.
+
+
+
