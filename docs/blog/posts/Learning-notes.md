@@ -177,3 +177,65 @@ TL; DR: The former will search `$PATH` for the actual place python installed, wh
 
 
 
+## 7.24.2024
+
+### git remote
+
+Error message: `fatal: The current branch main has multiple upstream branches, refusing to push.`
+
+>  https://stackoverflow.com/questions/13030714/git-fatal-the-current-branch-master-has-multiple-upstream-branches-refusing-t
+>
+> `git config remote.origin.push HEAD`
+
+
+
+Delete branch
+
+locally: `git branch -d <branch-name>`
+
+remotely: `git push -d <branch-name>`
+
+
+
+### cargo dependency
+
+A conprehensive explain: https://www.reddit.com/r/rust/comments/yrlvrq/why_are_dependency_crates_hidden/
+
+
+
+## 7.25.2024
+
+### Ubuntu /etc/apt/sources.list restores default version
+
+- get distro name: 
+
+>  https://askubuntu.com/a/443075
+>
+> `lsb_release -cs`
+
+- Ubuntu 20.04 LTS (Focal) default sources.list:
+
+https://gist.github.com/ishad0w/788555191c7037e249a439542c53e170
+
+- update apt package
+
+`sudo apt update`
+
+
+
+### Git: clone public repo and push to private repo
+
+https://stackoverflow.com/questions/10065526/github-how-to-make-a-fork-of-public-repository-private
+
+Difference between `--bare` and `--mirror`
+
+https://stackoverflow.com/questions/3959924/whats-the-difference-between-git-clone-mirror-and-git-clone-bare
+
+
+
+### Git: branch basics
+
+https://git-scm.com/book/en/v2/Git-Branching-Basic-Branching-and-Merging
+
+Useful Git book: https://git-scm.com/book/en/v2
+
