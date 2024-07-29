@@ -239,3 +239,44 @@ https://git-scm.com/book/en/v2/Git-Branching-Basic-Branching-and-Merging
 
 Useful Git book: https://git-scm.com/book/en/v2
 
+
+
+## 7.27.2024
+
+### Linux sysadmin useful resources
+
+https://www.thegeekstuff.com/2010/12/50-unix-linux-sysadmin-tutorials/
+
+
+
+### Linux boot process
+
+concise one: https://www.thegeekstuff.com/2011/02/linux-boot-process/
+
+Ubuntu manpage: https://manpages.ubuntu.com/manpages/focal/en/man7/bootup.7.html
+
+Ubuntu wiki (concise): https://wiki.ubuntu.com/Booting
+
+
+
+### Linux kernel compilation
+
+expert hacker: https://richardweiyang-2.gitbook.io/kernel-exploring/00_index
+
+
+
+## 7.29.2024
+
+### Modern C++ guidelines
+
+https://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines#S-philosophy
+
+
+
+### VSCode C++ Configuration
+
+https://zhuanlan.zhihu.com/p/669098443
+
+- For C++ standard mismatch that caused the include error, we can
+    - `ctrl + shift + p` open console, choose **C/C++: Edit Configuration (JSON)**, which will generate a `.vscode/c_cpp_properties.json` config file
+    - edit the keys (`cStandard` and `cppStandard`) inside `configurations` in that file,  to the standard the project actually is
